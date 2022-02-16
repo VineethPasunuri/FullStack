@@ -1,0 +1,16 @@
+package SimpleThread;
+
+public class ThreadCreation implements Runnable {
+
+	@Override
+	public void run() {
+		System.out.println("Runnable Interface implemented with thread :" + Thread.currentThread().getName());
+
+	}
+
+	public static void main(String[] args) {
+		Thread t1 = new Thread(new ThreadCreation(), "A");
+
+	}
+
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>ES6, ES7 & ES8 New Features</h1>
+    <h2>Const & Let Keywords</h2>
+    <hr />
+    <script type="text/javascript">
+        function test() {
+            for (var x = 0; x < 2; x++) {
+                var y = 30; //can access outside of for loop also
+                let z = 45 + x; //scope is local cannot access z out of for loop
+                const pi = 3.14; // cannot change pi value and cannot access outside
+                pi = 4.23 //gives error
+                console.log("x =" + x + ", z =" + z);
+            }
+            console.log("y =" + y)
+        } test()
+    </script>
+</body>
+
+</html>

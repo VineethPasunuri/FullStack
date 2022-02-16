@@ -1,0 +1,13 @@
+package ThreadsImplementation;
+
+public class DaemonThreadEx implements Runnable {
+	public void display() {
+
+	}
+
+	@Override
+	public void run() {
+		display();
+
+	}
+}

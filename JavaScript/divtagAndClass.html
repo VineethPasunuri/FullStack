@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .imageSize {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id='i1'>Class And div tag</h1>
+    <img src="images/TajMahal.jpg" id="mainImage" width="300" height="200" />
+    <hr />
+    <div onclick="handleClick(event)">
+        <img src="images/IndiaGate.jpg" class="imageSize" />
+        <img src="images/LotusTemple.jpg" class="imageSize" />
+        <img src="images/QutubMinar.jpg" class="imageSize" />
+        <img src="images/SanchiStupa.jpg" class="imageSize" />
+    </div>
+    <script type="text/javascript">
+        var count = 0;
+        function handleClick(event) {
+            // var ele = event.target;
+            // var ele = document.getElementById('i1');
+            // console.log(ele);
+            //console.log(ele.textContent);
+            var colors = ['red', 'blue', 'green', 'yellow',]
+            if (count > 3) {
+                count = 0;
+            }
+            var ele = document.getElementById('mainImage');
+            var x = document.getElementById('i1')
+            x.style.color = colors[count++];
+            if (event.target.tagName == 'IMG') {
+                // alert(event.target.src);
+                // alert(event.target.tagName);
+                ele.src = event.target.src;
+            }
+        }
+    </script>
+</body>
+
+</html>

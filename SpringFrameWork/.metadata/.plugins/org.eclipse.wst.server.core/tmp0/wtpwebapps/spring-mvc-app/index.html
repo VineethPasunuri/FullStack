@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>This is Welcome Page</h2>
+	<a href="spring/user/datetime">Date Time</a>
+	<hr />
+	<form action="spring/user/store" method="post">
+		Name : <input type="text" name="n1" /> <br /> Password : <input
+			type="password" name="n2" /> <br /> Age : <input type="number"
+			name="n3" /> <input type="submit" value="Register" /><br />
+		<hr />
+		<a href="spring/user/findAllUsers">ShowAllUsers</a>
+	</form>
+	<br />
+	<hr />
+	<hr />
+	<form action="spring/user/findUser" method="get">
+		ID : <input type="number" name="n1" /> <br /> <input type="submit"
+			value="findUser">
+	</form>
+	<br />
+	<hr />
+	<form action="spring/user/deleteUser" method="get">
+		ID : <input type="number" name="n1" /> <br /> <input type="submit"
+			value="deleteUser">
+	</form>
+	<br />
+	<hr />
+	<form action="spring/user/updateName" method="get">
+		ID : <input type="number" name="n1" /> <br /> Name : <input
+			type="text" name="n2" /> <br /> <input type="submit"
+			value="UpdateName">
+	</form>
+</body>
+</html>

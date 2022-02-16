@@ -1,0 +1,12 @@
+package ThreadsImplementation;
+
+public class TestDaemon {
+	public static void main(String[] args) {
+		Thread t1 = new Thread(new DaemonThreadEx());
+		Thread t2 = new Thread(new DaemonThreadEx());
+		Thread t3 = new Thread(new DaemonThreadEx());
+		t1.start();
+		t2.start();
+		t3.start();
+	}
+}

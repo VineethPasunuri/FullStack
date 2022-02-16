@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.legatohealth.servicediscoveryapp&apos; to &apos;com.legatohealth&apos;&#x0D;&#x0A;- Original project: &apos;service-discovery-app&apos;&#x0D;&#x0A;- Original element: &apos;service-discovery-app/src/main/java/com.legatohealth.servicediscoveryapp&apos;&#x0D;&#x0A;- Renamed element: &apos;service-discovery-app/src/main/java/com.legatohealth&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.legatohealth.servicediscoveryapp&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.legatohealth.servicediscoveryapp" name="com.legatohealth" qualified="false" references="true" stamp="1643964987136" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,2 @@
+ 2. This file is an Example of Writing and reading file Synchronously without using + 2. This file is an Example of Writing and reading file Synchronously without using + 2. This file is an Example of Writing and reading file Synchronously without using + 
+ 2. This file is an Example of Writing and reading file Synchronously without using + 

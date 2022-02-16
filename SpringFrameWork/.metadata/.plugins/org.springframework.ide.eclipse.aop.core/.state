@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="config-server-app"/>
+<aop-project name="service-first-app"/>
+<aop-project name="service-client"/>
+<aop-project name="config-client-app"/>
+<aop-project name="service-client-app"/>
+<aop-project name="app1"/>
+<aop-project name="service-discovery-app"/>
+<aop-project name="spring-boot-app"/>
+</aop-reference-model>

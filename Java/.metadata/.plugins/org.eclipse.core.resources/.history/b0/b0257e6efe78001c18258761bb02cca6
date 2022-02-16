@@ -1,0 +1,28 @@
+package Synchronization;
+
+public class TicketBooking implements Runnable {
+	static int availableTickets = 1;
+
+	@Override
+	public void run() {
+//		if (availableTickets != 0) {
+//			book();
+//		} else {
+//			System.out.println(Thread.currentThread().getName() + " didn't get the ticket");
+//		}
+		book();
+	}
+
+	public void book() {
+//		System.out.println(Thread.currentThread().getName() + " got the ticket");
+//		availableTickets--;
+		System.out.println(Thread.currentThread().getName() + " Entered");
+		if (availableTickets != 0) {
+			System.out.println(Thread.currentThread().getName() + " got the ticket");
+			availableTickets--;
+		} else {
+			System.out.println(Thread.currentThread().getName() + " didn't get the ticket");
+		}
+	}
+
+}

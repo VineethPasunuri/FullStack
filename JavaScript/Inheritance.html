@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        class Employee {
+            constructor(name, age) {
+                this.name = name;
+                this.age = age;
+            }
+            display() {
+                document.write("<p> Name =" + this.name + ", Age =" + this.age + '</p>')
+            }
+        }
+        class Manager extends Employee {
+            constructor(name, age, employeesReporting) {
+                super(name, age);
+                this.employeesReporting = employeesReporting;
+            }
+            display() {
+                document.write("<p> Name =" + this.name + ", Age =" + this.age + ", Employees Reporting =" + this.employeesReporting + '</p>')
+            }
+        }
+        var emp = new Manager('Vineeth', 24, 8);
+        emp.display();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+package Synchronization;
+
+public class TicketBooking implements Runnable {
+	static int availableTickets = 1;
+
+	@Override
+	public void run() {
+		book();
+
+	}
+
+	public void book() {
+
+	}
+
+}

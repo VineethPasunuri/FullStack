@@ -1,0 +1,11 @@
+package SimpleThread;
+
+public class ThreadCreation implements Runnable {
+
+	@Override
+	public void run() {
+		System.out.println("Runnable Interface implemented");
+		
+	}
+
+}
